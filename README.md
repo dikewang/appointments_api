@@ -44,7 +44,8 @@ nodemon index.js
   #### case 5: add a new appointment to a doctor's calendar:
     POST http://localhost:4000/api/appointments/
     
-    example VALID request body in JSON(can post the same appointment multiple times to test maximum 3 appointments 
+    example VALID request body in JSON(can post the same appointment 
+    multiple times to test maximum 3 appointments 
     can be scheduled at the same time for a doctor): 
     {
       "doctor_first_name": "Rick",
