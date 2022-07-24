@@ -7,26 +7,23 @@
 ```
 nvm use 16.16.0
 ```
-### step 3: install express
-```
-npm install express --save-dev
-```
-### step 4: install nodemon 
+### step 3: install nodemon 
 ```
 npm install -g nodemon
 ```
-### step 5: set up environment variable PORT=4000
+### step 4: set up environment variable PORT=4000
 ```
 export PORT=4000
 ```
 ### step 6: install postman for demo and test
+https://www.postman.com/downloads/
 
 ## Demo:
 ### step 1: clone repository
 ```
 git clone https://github.com/dikewang/appointments_api.git
 ```
-### step 2: install required modules
+### step 2: install required modules(express framework)
 ```
 npm install
 ```
