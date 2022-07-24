@@ -22,15 +22,19 @@ export PORT=4000
 ### step 6: install postman for demo and test
 
 ## Demo:
-### step 1: 
+### step 1: clone repository
 ```
 git clone https://github.com/dikewang/appointments_api.git
 ```
-### step 2:
+### step 2: install required modules
+```
+npm install
+```
+### step 3: set up server on port 4000/3000
 ```
 nodemon index.js
 ```
-### step 3: open postman and test different cases
+### step 4: open postman and test different cases
   #### case 1: get all current doctors:
     GET http://localhost:4000/api/doctors/
   #### case 2: get all current appointments:
