@@ -38,10 +38,10 @@ nodemon index.js
   #### case 3: get a list of all appointments for a particular doctor and particular day:
     GET http://localhost:4000/api/appointments/[DOCTOR_ID]/[DATE]
     example: GET http://localhost:4000/api/appointments/1/11032022
-  #### case 4: Deleting an existing appointment from doctor's calendar:
+  #### case 4: deleting an existing appointment from doctor's calendar:
     DELETE http://localhost:4000/api/appointments/[APPOINTMENT_ID]
     example: DELETE http://localhost:4000/api/appointments/2
-  #### case 5: Add a new appointment to a doctor's calendar:
+  #### case 5: add a new appointment to a doctor's calendar:
     POST http://localhost:4000/api/appointments/
     
     example VALID request body in JSON(can post the same appointment multiple times to test maximum 3 appointments 
