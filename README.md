@@ -15,7 +15,7 @@ npm install -g nodemon
 ```
 export PORT=4000
 ```
-### step 6: install postman for demo and test
+### step 5: install postman for demo and test
 https://www.postman.com/downloads/
 
 ## Demo:
